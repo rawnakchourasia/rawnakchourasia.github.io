@@ -5,7 +5,7 @@ body{
 }
 hr{
     background-color: wheat;
-    width: 95vh;
+    width: 95vw;
     height: 2px;
 }
 footer{
@@ -95,7 +95,7 @@ img:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
 }
 .card{
     background-color: rgb(231, 218, 207);
