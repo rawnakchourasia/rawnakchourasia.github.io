@@ -1,0 +1,336 @@
+body {
+    margin-left: 60px;
+    margin-right: 20px;
+    font-family: serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/*-----header-----*/
+
+#main-header {
+    margin-top: 60px;
+}
+
+#logo img {
+    max-width: 210px;
+}
+
+#site-title {
+    margin-bottom: 0;
+}
+
+#site-title a {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: sans-serif;
+}
+
+#site-title a:hover {
+    color: #dc6520;
+}
+
+#about-site {
+    color: #3c5349;
+    margin-top: 5px;
+}
+
+#header-image-container {
+    margin-top: 50px;
+}
+
+
+
+/*-----main-----*/
+
+#content {
+    margin-top: 80px;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+}
+
+#blog-header {
+    /*margin-bottom: 70px;*/
+}
+
+#blog-header h1 {
+    font-size: 3.2rem;
+    color: #13222c;
+    font-family: sans-serif;
+}
+
+
+
+/*-----views-----*/
+
+#views {
+    margin-bottom: 3px;
+}
+
+#views img {
+    margin-left: 2px;
+    width: 18px;
+    margin-bottom: -2px;
+}
+
+#views span {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+/*-----blog content-----*/
+
+#blog-content {
+    display: inline-block;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    line-height: 1.4;
+    width: 70%;
+    font-weight: 400;
+    font-family: Georgia;
+}
+
+#blog-content h4.h-style {
+    margin-bottom: 0;
+}
+
+#blog-content ol li p {
+    margin-top: 10px;
+}
+
+#blog-content .sources a {
+    text-decoration: none;
+}
+
+#blog-content .sources a:hover {
+    color: #000000;
+}
+
+
+
+/*-----aside-----*/
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    width: 25%;
+    /*float:right;*/
+    margin-top: 5%;
+}
+
+.widget {
+    border-top: 4px solid black;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.widget input{
+    display: inline-block;
+}
+.widget a {
+    color: #dc6520;
+}
+
+.widget a:hover {
+    color: #1a1a1a;
+}
+
+.widget .widget-title {
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+}
+
+#aside h4{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#aside p{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#aside a{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: inherit;
+    /*text-transform: uppercase;*/
+}
+
+
+#subscribe-form form label{
+    font-family: serif;
+    color: #3C5349;
+}
+
+#subscription input{
+    width: 300px;
+}
+
+.sub-btn{
+    margin: -1px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #d1d1d1;
+    color: #686868;
+    display: block;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    color: #000000;
+}
+
+button[type="submit"] {
+    background-color: #1a1a1a;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: #dc6520;
+}
+
+button[type="search"]{
+    margin-left: -5px;
+    height: 41px;
+    width: 41px;
+    /* padding: 0px; */
+    background-color: #13222c;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    /*font-size: 18px;*/
+
+}
+
+.search{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+
+
+
+#author-container{
+    width:25%;
+    display: block;
+    float: left;
+    margin-right: 3%;
+}
+
+#author-container p a{
+    text-decoration: none;
+    color: black;
+}
+
+#author-container p a:hover{
+    color: orange;
+}
+
+/*social
+                            Normal          On Hover
+1. Facebook        #3b5998         #2d4373
+2. Linkedin          #0077b5         #00121c
+3. Twitter             #83c3f3          #55acee
+4. Gmail             #dd4b39          #c23321
+5. Whatsapp      #6ba92f          #528124
+6. E-Mail           #ed4926          #cf3311*/
+#facebook img{
+    background-color: #3b5998;
+    position: fixed;
+    left:0px;
+    top:25%;
+}
+#facebook img:hover{
+    background-color: #2d4373;
+}
+
+#linkedin img{
+    background-color: #0077b5; 
+    position: fixed;
+    left:0px;
+    top:31%;   
+}
+#linkedin img:hover{
+    background-color: #00121c;
+}
+
+#twitter img{
+    background-color: #83c3f3;
+    position: fixed;
+    left:0px;
+    top:37%;
+}
+#twitter img:hover{
+    background-color: #55acee;
+}
+
+#gmail img{
+    background-color: #dd4b39;
+    position: fixed;
+    left:0px;
+    top:43%;
+}
+#gmail img:hover{
+    background-color: #c23321;
+}
+
+#whatsapp img{
+    background-color: #6ba92f;
+    position: fixed;
+    left:0px;
+    top:49%;
+}
+#whatsapp img:hover{
+    background-color: #528124;
+}
+
+#mail img{
+
+    background-color: #ed4926;
+    position: fixed;
+    left:0px;
+    top:55%;
+}
+#mail img:hover{
+    background-color: #cf3311;
+}
+
+.social-img{
+    height: 20px;
+    width:20px;
+    display: block;
+    padding:12px; 
+}
+/*.social-container{
+    width:30px;
+    height: 30px;
+}*/
