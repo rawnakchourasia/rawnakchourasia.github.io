@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://bit.ly/2Kmegkt">
+	<link rel="stylesheet" type="text/css" href="music-player.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body style="background-color: #0C1027;">
+
+	<header id="header">
+
+		<div id="left-header-content">
+			<div id="player-logo" class="animated pulse infinite">
+				<a href="#"><img src="https://bit.ly/2Kmegkt"></a>
+			</div>
+
+			<div id="search-box">
+				
+				<div class="text-wrap">
+				   <div class="search-image">
+				        <input type="text" class="searchTerm" placeholder="Which Song are you looking for???">
+				        <button type="submit" class="searchButton">
+				        	<i class="fa fa-search"></i>
+				        </button>
+				    </div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="right-header-content">
+			<div id="alerts">
+				<a href="#"><i class="fas fa-bell"></i></a>
+			</div>
+
+			<div id="favourites">
+				<a href="#"><h2>Favourites</h2></a>
+			</div>
+
+			<div id="profile-icon">
+				<a href="#my-profile"><img src="https://bit.ly/2wI64aL"></a>
+				<!-- <a href="my-profile"><h6>My Profile</h6> </a> -->
+			</div>
+			<div id="my-profile" class="profile-details">
+
+		        <a href="#" class="cancel-icon"> X </a>
+		        <p> <a href="#">Edit Profile</a> </p>
+		        <hr>
+		        <p> <a href="#">Downloads</a> </p>
+		        <hr>
+		        <p> <a href="#">Premium</a> </p>
+		        <hr>
+		        <p> <a href="#">Sign Out</a> </p>
+
+		    </div>
+		</div>
+
+	</header>
+
+	<main id="main">
+		<section id="carousel">
+			
+			<div class="carousel-images">
+				
+				<div class="carousel-wrapper">
+					<span id="item-1"></span>
+					<span id="item-2"></span>
+					<span id="item-3"></span>
+					<div class="carousel-item item-1">
+					    <a class="arrow arrow-prev" href="#item-3"></a>
+					    <a class="arrow arrow-next" href="#item-2"></a>
+					</div>
+					  
+					<div class="carousel-item item-2">
+						<a class="arrow arrow-prev" href="#item-1"></a>
+					    <a class="arrow arrow-next" href="#item-3"></a>
+					</div>
+					  
+					<div class="carousel-item item-3">
+						<a class="arrow arrow-prev" href="#item-2"></a>
+					    <a class="arrow arrow-next" href="#item-1"></a>
+				    </div>
+				</div>
+
+			</div>
+			
+		</section>
+
+		<h3 class="section-heading">Latest Releases</h3>
+		<section id="latest-releases">
+			<div class="latest-songs">
+				<div class="latest-picture">
+					<img src="https://bit.ly/2KcwBjL">
+				</div>
+				<div class="latest-1">
+					<h3>Uptown Funk</h3>
+					<h6>31 Dec 2019</h6>
+				</div>
+				<div class="latest-2">
+					<div class="dropdown">
+					    <span><i class="fas fa-ellipsis-h"></i></span>
+					    <div class="dropdown-content">
+					    	<p> <a href="#"><i class="fas fa-play"></i>&nbsp &nbsp Play Now</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-plus"></i>&nbsp &nbsp Add To Queue</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-list-ol"></i>&nbsp &nbsp Add To Favourites</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-exclamation-circle"></i>&nbsp &nbsp Get Info</a> </p>
+					    </div>
+					</div>
+					
+					<h5>5:30</h5>
+				</div>
+			</div>
+
+			<div class="latest-songs">
+				<div class="latest-picture">
+					<img src="https://bit.ly/3abyHL5">
+				</div>
+				<div class="latest-1">
+					<h3>Hookah Bar</h3>
+					<h6>31 Dec 2019</h6>
+				</div>
+				<div class="latest-2">
+					<div class="dropdown">
+					    <span><i class="fas fa-ellipsis-h"></i></span>
+					    <div class="dropdown-content">
+					    	<p> <a href="#"><i class="fas fa-play"></i>&nbsp &nbsp Play Now</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-plus"></i>&nbsp &nbsp Add To Queue</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-list-ol"></i>&nbsp &nbsp Add To Favourites</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-exclamation-circle"></i>&nbsp &nbsp Get Info</a> </p>
+					    </div>
+					</div>
+					<h5>5:30</h5>
+				</div>
+			</div>
+
+			<div class="latest-songs">
+				<div class="latest-picture">
+					<img src="https://bit.ly/3bg18ca">
+				</div>
+				<div class="latest-1">
+					<h3>Animals</h3>
+					<h6>31 Nov 2019</h6>
+				</div>
+				<div class="latest-2">
+					<div class="dropdown">
+					    <span><i class="fas fa-ellipsis-h"></i></span>
+					    <div class="dropdown-content">
+					    	<p> <a href="#"><i class="fas fa-play"></i>&nbsp &nbsp Play Now</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-plus"></i>&nbsp &nbsp Add To Queue</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-list-ol"></i>&nbsp &nbsp Add To Favourites</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-exclamation-circle"></i>&nbsp &nbsp Get Info</a> </p>
+					    </div>
+					</div>
+					<h5>5:35</h5>
+				</div>
+			</div>
+
+			<div class="latest-songs">
+				<div class="latest-picture">
+					<img src="https://bit.ly/3cfNYw2">
+				</div>
+				<div class="latest-1">
+					<h3>Tan</h3>
+					<h6>31 Oct 2019</h6>
+				</div>
+				<div class="latest-2">
+					<div class="dropdown">
+					    <span><i class="fas fa-ellipsis-h"></i></span>
+					    <div class="dropdown-content">
+					    	<p> <a href="#"><i class="fas fa-play"></i>&nbsp &nbsp Play Now</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-plus"></i>&nbsp &nbsp Add To Queue</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-list-ol"></i>&nbsp &nbsp Add To Favourites</a> </p>
+					        <hr>
+					        <p> <a href="#"><i class="fas fa-exclamation-circle"></i>&nbsp &nbsp Get Info</a> </p>
+					    </div>
+					</div>
+					<h5>5:10</h5>
+				</div>
+			</div>
+		</section>
+
+		<h3 class="section-heading">Popular Artists</h3>
+		<section id="popular-artists">
+			<div class="artists container-artist">
+				<a href="#ar-rehman">
+					<img src="https://bit.ly/2RGtcOn" class="image-artist">
+					<div class="middle-artist">
+    					<div class="text-artist">AR Rehman</div>
+  					</div>
+					</a>
+			</div>
+			
+			<div id="ar-rehman" class="artist-details">
+
+		        <a href="#" class="cancel-icon"> X </a>
+		        <section class="artist-window-container">
+		        	<div class="artist-window-pic">
+		        		<img src="https://bit.ly/2RGtcOn">
+		        	</div>
+		        	
+		        	<div class="artist-details-indeed">
+			        	<div class="artist-details-name-section">
+			        		<div class="artist-details-name-section-left">
+			        			<h1> A R Rehman</h1>
+			        		</div>
+			        		<div class="artist-details-name-section-right">
+			        			<h5> 1827 Followers</h5>
+			        		</div>
+			        	</div>
+		        		<div class="artist-details-description">
+		        			<h6>Indian Artist</h6>
+		        			<p>Rahman initially composed scores for different documentaries and jingles for advertisements and Indian television channels. With an his in-house studio Panchathan Record Inn, Rahman's film-scoring career began during the early 1990s with the Tamil film Roja. Rahman followed this with successful scores and songs for Tamil–language films for the Chennai film industry, including Ratnam's politically-charged Bombay, the urban Kadhalan, Thiruda Thiruda and S. Shankar's debut film Gentleman.</p>
+		        		</div>
+		        		<div class="artists-follow-buttons">
+		        			<button class="artist-follow-button1 special-effect-1"><h3>Play All</h3></button>
+		        			<button class="artist-follow-button2 special-effect-1"><h3>Follow</h3></button>
+		        		</div>
+		        		<div class="artist-tracks">
+		        			<h6>289 tracks | 129 albums</h6>
+		        		</div>
+			        </div>
+			    </section>
+			    <section class="artist-song-playlist">
+			    	</style>
+						<div id="playlist-2">
+							<ul class="playlist-songs-2">
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+
+									
+								</ul>
+
+						</div>
+			    </section>
+
+
+		    </div>
+
+			<div class="artists container-artist">
+				<a href="#benny-dayal">
+					<img src="https://bit.ly/34DTndM"  class="image-artist">
+					<div class="middle-artist">
+    					<div class="text-artist"> Benny Dayal</div>
+  					</div>
+				</a>
+			</div>
+			<div id="benny-dayal" class="artist-details">
+
+		        <a href="#" class="cancel-icon"> X </a>
+		        
+		        <section class="artist-window-container">
+		        	<div class="artist-window-pic">
+		        		<img src="https://bit.ly/34DTndM">
+		        	</div>
+		        	
+		        	<div class="artist-details-indeed">
+			        	<div class="artist-details-name-section">
+			        		<div class="artist-details-name-section-left">
+			        			<h1> Benny Dayal</h1>
+			        		</div>
+			        		<div class="artist-details-name-section-right">
+			        			<h5> 1827 Followers</h5>
+			        		</div>
+			        	</div>
+		        		<div class="artist-details-description">
+		        			<h6>Indian Artist</h6>
+		        			<p>Benny Dayal (born 13 May 1984) is an Indian playback singer. He is a prominent singer in Hindi, Tamil, Telugu, Malayalam, Kannada, Bengali, Gujarati and Marathi languages films. He is a member of the band S5 launched by SS Music TV channel.[1] He made his acting debut in the Malayalam movie By The People. The flick was a suspense thriller and all the songs were sung by S5 members and it was during that time when A.R. Rahman noticed him, and took an audition.</p>
+		        		</div>
+		        		<div class="artists-follow-buttons">
+		        			<button class="artist-follow-button1"><h3>Play All</h3></button>
+		        			<button class="artist-follow-button2"><h3>Follow</h3></button>
+		        		</div>
+		        		<div class="artist-tracks">
+		        			<h6>289 tracks | 129 albums</h6>
+		        		</div>
+			        </div>
+			    </section>
+			    <section class="artist-song-playlist">
+			    	</style>
+
+
+
+
+
+
+
+
+						<div id="playlist-2">
+							<ul class="playlist-songs-2">
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+
+									
+								</ul>
+
+						</div>
+			    </section>
+			</div>
+
+			<div class="artists container-artist">
+				<a href="#blue-band">
+					<img src="https://bit.ly/2RCIi7t"  class="image-artist">
+					<div class="middle-artist">
+    					<div class="text-artist"> Blue Band </div>
+  					</div>
+				</a>
+			</div>
+			<div id="blue-band" class="artist-details">
+				<a href="#" class="cancel-icon"> X </a>
+		        
+		        <section class="artist-window-container">
+		        	<div class="artist-window-pic">
+		        		<img src="https://bit.ly/2RCIi7t">
+		        	</div>
+		        	
+		        	<div class="artist-details-indeed">
+			        	<div class="artist-details-name-section">
+			        		<div class="artist-details-name-section-left">
+			        			<h1>Blue Band</h1>
+			        		</div>
+			        		<div class="artist-details-name-section-right">
+			        			<h5> 1827 Followers</h5>
+			        		</div>
+			        	</div>
+		        		<div class="artist-details-description">
+		        			<h6>US Band</h6>
+		        			<p>Blue are an English boy band consisting of members Antony Costa, Duncan James, Lee Ryan and Simon Webbe. The group originally formed in 2000 and has released three studio albums, All Rise (2001), One Love (2002) and Guilty (2003) that all peaked at number one in the United Kingdom alongside releasing 16 singles, over a four-year period. The group also worked alongside artists such as Stevie Wonder, Elton John and Lil' Kim. In late 2004, the group announced a hiatus and released their first compilation album, Best of Blue, on 15 November 2004.</p>
+		        		</div>
+		        		<div class="artists-follow-buttons">
+		        			<button class="artist-follow-button1"><h3>Play All</h3></button>
+		        			<button class="artist-follow-button2"><h3>Follow</h3></button>
+		        		</div>
+		        		<div class="artist-tracks">
+		        			<h6>289 tracks | 129 albums</h6>
+		        		</div>
+			        </div>
+			    </section>
+			    <section class="artist-song-playlist">
+			    	</style>
+
+
+
+
+
+
+
+
+						<div id="playlist-2">
+							<ul class="playlist-songs-2">
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+
+									
+								</ul>
+
+						</div>
+			    </section>
+		    </div>
+
+			<div class="artists container-artist">
+				<a href="#kk-songs">
+					<img src="https://bit.ly/3cl8fjK"  class="image-artist">
+					<div class="middle-artist">
+    					<div class="text-artist">K K</div>
+  					</div>
+				</a>
+			</div>
+			<div id="kk-songs" class="artist-details">
+		        <a href="#" class="cancel-icon"> X </a>
+		        
+		        <section class="artist-window-container">
+		        	<div class="artist-window-pic">
+		        		<img src="https://bit.ly/3cl8fjK">
+		        	</div>
+		        	
+		        	<div class="artist-details-indeed">
+			        	<div class="artist-details-name-section">
+			        		<div class="artist-details-name-section-left">
+			        			<h1>K K</h1>
+			        		</div>
+			        		<div class="artist-details-name-section-right">
+			        			<h5> 1827 Followers</h5>
+			        		</div>
+			        	</div>
+		        		<div class="artist-details-description">
+		        			<h6>Indian Artist</h6>
+		        			<p>Krishnakumar Kunnath (popularly known as KK, K.K. or Kay Kay) is an Indian singer. He is a prominent singer in Hindi, Tamil, Telugu, Kannada, Malayalam, Marathi, Bengali and Gujarati languages films.[1] KK is noted for his clear and soothing voice; broad vocal range and noteplay. He is considered as one of the most versatile singers of India.</p>
+		        		</div>
+		        		<div class="artists-follow-buttons">
+		        			<button class="artist-follow-button1"><h3>Play All</h3></button>
+		        			<button class="artist-follow-button2"><h3>Follow</h3></button>
+		        		</div>
+		        		<div class="artist-tracks">
+		        			<h6>289 tracks | 129 albums</h6>
+		        		</div>
+			        </div>
+			    </section>
+			    <section class="artist-song-playlist">
+			    	</style>
+
+
+
+
+
+
+
+
+						<div id="playlist-2">
+							<ul class="playlist-songs-2">
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+
+									
+								</ul>
+
+						</div>
+			    </section>
+		    </div>
+
+			<div class="artists container-artist">
+				<a href="#linkin-park">
+					<img src="https://bit.ly/3bfuUOo"  class="image-artist">
+					<div class="middle-artist">
+    					<div class="text-artist"> Linkin Park</div>
+  					</div>
+				</a>
+			</div>
+			<div id="linkin-park" class="artist-details">
+		        <a href="#" class="cancel-icon"> X </a>
+		        
+		        <section class="artist-window-container">
+		        	<div class="artist-window-pic">
+		        		<img src="https://bit.ly/3bfuUOo">
+		        	</div>
+		        	
+		        	<div class="artist-details-indeed">
+			        	<div class="artist-details-name-section">
+			        		<div class="artist-details-name-section-left">
+			        			<h1> Linkin Park</h1>
+			        		</div>
+			        		<div class="artist-details-name-section-right">
+			        			<h5> 1827 Followers</h5>
+			        		</div>
+			        	</div>
+		        		<div class="artist-details-description">
+		        			<h6>US Artist</h6>
+		        			<p>Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell, DJ/keyboardist Joe Hahn and drummer Rob Bourdon, all of whom are founding members. Vocalists Mark Wakefield and Chester Bennington and bassist Kyle Christner are former members of the band. Categorized as alternative rock, Linkin Park has experimented with their music throughout their career by incorporating heavy metal, hard rock, hip hop, pop, and electronica.</p>
+		        		</div>
+		        		<div class="artists-follow-buttons">
+		        			<button class="artist-follow-button1"><h3>Play All</h3></button>
+		        			<button class="artist-follow-button2"><h3>Follow</h3></button>
+		        		</div>
+		        		<div class="artist-tracks">
+		        			<h6>289 tracks | 129 albums</h6>
+		        		</div>
+			        </div>
+			    </section>
+			    <section class="artist-song-playlist">
+			    	</style>
+
+
+
+
+
+
+
+
+						<div id="playlist-2">
+							<ul class="playlist-songs-2">
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+
+									
+								</ul>
+
+						</div>
+			    </section>
+		    </div>
+
+			<div class="artists container-artist">
+				<a href="#vishal-dadlani">
+					<img src="https://bit.ly/2VdmSQx"  class="image-artist">
+					<div class="middle-artist">
+    					<div class="text-artist"> Vishal Dadlani</div>
+  					</div>
+				</a>
+			</div>
+			<div id="vishal-dadlani" class="artist-details">
+		        <a href="#" class="cancel-icon"> X </a>
+		        
+		        <section class="artist-window-container">
+		        	<div class="artist-window-pic">
+		        		<img src="https://bit.ly/2VdmSQx">
+		        	</div>
+		        	
+		        	<div class="artist-details-indeed">
+			        	<div class="artist-details-name-section">
+			        		<div class="artist-details-name-section-left">
+			        			<h1> Vishal Dadlani</h1>
+			        		</div>
+			        		<div class="artist-details-name-section-right">
+			        			<h5> 1827 Followers</h5>
+			        		</div>
+			        	</div>
+		        		<div class="artist-details-description">
+		        			<h6>Indian Artist</h6>
+		        			<p>Vishal Dadlani's musical journey started back in 1994, with the electronica/indie-rock band Pentagram formed in Mumbai. The band fronted by Vishal Dadlani (one half of the film music producing duo Vishal-Shekhar) with Randolph Correia on guitars, Clyde D'souza (former member) on guitars, Papal Mane on bass and Shiraz Bhattacharya on drums. All of whom have recently been actively involved in the Bollywood music business. Pentagram received their initial recognition and fame by winning three major rock competitions at IIT Kanpur, IIT Delhi and IIT Bombay.</p>
+		        		</div>
+		        		<div class="artists-follow-buttons">
+		        			<button class="artist-follow-button1"><h3>Play All</h3></button>
+		        			<button class="artist-follow-button2"><h3>Follow</h3></button>
+		        		</div>
+		        		<div class="artist-tracks">
+		        			<h6>289 tracks | 129 albums</h6>
+		        		</div>
+			        </div>
+			    </section>
+			    <section class="artist-song-playlist">
+			    	</style>
+
+
+
+
+
+
+
+
+						<div id="playlist-2">
+							<ul class="playlist-songs-2">
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+										<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>01</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Jai Ho</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>02</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Gangsta Blues</h4></a>
+													<br>
+													<h5>Slumdog</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+									<li>
+											<br>
+										<table border="0" class="table-2">
+											<tr id="t2row1">
+												
+												<td id="t2col1">
+													<h5>03</h5>
+												</td>
+
+												<td id="t2col2">
+													<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+												</td>
+
+												<td id="t2col3" class="song-name-table">
+													<a><h4>Ab na Rukenge Yaara</h4></a>
+													<br>
+													<h5>Avengers</h5>
+												</td>
+												<td id="t2col4">
+													<a href="#"><i class="far fa-heart"></i></a>
+												</td>
+												<td id="t2col5">
+													<a href="#"><i class="fas fa-plus"></i></a>
+												</td>
+											</tr>
+										</table>
+									</li>
+
+									
+								</ul>
+
+						</div>
+			    </section>
+		    </div>
+
+		</section>
+
+
+
+		<section id="stations">
+
+			<div id="stations-logo">
+				<img src="https://bit.ly/3adlFgc">
+			</div>
+
+			<div class="station-names">
+				<a href="#"><img src="https://bit.ly/2VxDp0C"></a>
+			</div>
+
+			<div class="station-names">
+				<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+			</div>
+
+			<div class="station-names">
+				<a href="#"><img src="https://bit.ly/2XMYuqm"></a>
+			</div>
+
+			<div class="station-names">
+				<a href="#"><img src="https://bit.ly/2VMuZTl"></a>
+			</div>
+
+			<div class="station-names">
+				<a href="#"><img src="https://bit.ly/3abWhaQ"></a>
+			</div>
+
+		</section>
+
+		<section id="song-theme">
+			<div class="theme-types container-theme">
+				<a href="#"><img src="https://bit.ly/3ad3CqG" class="image-theme">
+					<div class="overlay-theme">
+	    				<div class="text-theme">PARTY</div>
+	  				</div>
+	  			</a>
+			</div>
+
+			<div class="theme-types container-theme">
+				<a href="#"><img src="https://bit.ly/3bhgGMT" class="image-theme">
+					<div class="overlay-theme">
+	    				<div class="text-theme">ELECTRONIC</div>
+	  				</div>
+	  			</a>
+			</div>
+
+			<div class="theme-types container-theme">
+				<a href="#"><img src="https://bit.ly/3aeYAdh" class="image-theme">
+					<div class="overlay-theme">
+	    				<div class="text-theme">ROAD TRIP</div>
+	  				</div>
+	  			</a>
+			</div>
+		</section>
+
+
+		<h3 class="section-heading">Latest English</h3>
+		<section id="latest-english">
+			<div class="english-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2Vwznpm"></a>
+			</div>
+
+			<div class="english-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2VzSSgI"></a>
+			</div>
+
+			<div class="english-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/3erH2h9"></a>
+			</div>
+
+			<div class="english-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/3akMijC"></a>
+			</div>
+
+			<div class="english-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2ygDf5V"></a>
+			</div>
+
+			<div class="english-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2yk7Qzv"></a>
+			</div>
+		</section>
+		
+
+		<h3 class="section-heading">Latest Hindi</h3>
+		<section id="latest-hindi">
+			<div class="hindi-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2z428lv"></a>
+			</div>
+
+			<div class="hindi-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2VxHaTM"></a>
+			</div>
+
+			<div class="hindi-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/3eo24xn"></a>
+			</div>
+
+			<div class="hindi-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/3bi0niM"></a>
+			</div>
+
+			<div class="hindi-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/3agc5cx"></a>
+			</div>
+
+			<div class="hindi-songs color-eng-hind">
+				<a href="#"><img src="https://bit.ly/2Vc1TgM"></a>
+			</div>
+		</section>
+	</main>
+
+	<aside id="aside">
+		<h1>My Playlist</h1>
+		<div id="select-playlist">
+			<i>Queue</i>
+		</div>
+
+		
+
+		<div id="playlist">
+			
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">01</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">02</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2VzSSgI"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Alsidj aknk</h4></a>
+						<br>
+						<h5>Hikaks</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">03</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2VzSSgI"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>JIsjksmk nkk</h4></a>
+						<br>
+						<h5>Aodncjs</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">04</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>AUnjsd Blues</h4></a>
+						<br>
+						<h5>kaokso</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">05</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/3agc5cx"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">06</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">07</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2ygDf5V"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">08</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">09</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">10</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+			<table border="0" class="playlist-table">
+				<tr id="t2row1-playlist">
+					
+					<td id="t2col1-playlist">
+						<h5 id="playlist-number">11</h5>
+					</td>
+
+					<td id="t2col2-playlist">
+						<a href="#"><img src="https://bit.ly/2Kcw15n"></a>
+					</td>
+
+					<td id="t2col3-playlist" class="song-name-table-playlist">
+						<a><h4>Gangsta Blues</h4></a>
+						<br>
+						<h5>Slumdog</h5>
+					</td>
+					<td id="t2col4-playlist">
+						<a href="#"><i class="far fa-heart"></i></a>
+					</td>
+					<td id="t2col5">
+						<a href="#"><i class="fas fa-plus"></i></a>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+		
+	</aside>
+	
+	<footer id="footer">
+		<div id="social-buttons">
+			<div id="social" class="text-center">
+            <div class="social-container">
+                <a id="facebook" class="social-btn" target="_blank" href="http://www.facebook.com/"><i class="fab fa-facebook-f social-img"></i></a>
+            </div>
+            <div class="social-container">
+                <a id="linkedin" class="social-btn" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in social-img"></i></a>
+            </div>
+            <div class="social-container">
+                <a id="twitter" class="social-btn" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter social-img"></i></a>
+            </div>
+        </div>
+
+		</div>
+	</footer>
+
+	<div id="music-player">
+		<div id="left-player-section">
+			<div id="player-image">
+				<img src="https://bit.ly/2VzSSgI">
+			</div>
+			<div id="player-song-details">
+				<h3>Animals</h3>
+				<h5>Ricky Martin</h5>
+			</div>
+			<div id="player-song-fav">
+				&nbsp
+				<button><i class="far fa-heart"></i></button>&nbsp
+				<button><i class="far fa-times-circle"></i></button>
+			</div>
+		</div>
+
+		<div id="middle-player-section">
+			<div id="middle-section-top">
+				<button><i class="fas fa-random"></i></button>
+				<button><i class="fas fa-step-backward"></i></button>
+				<button id="music-player-pause"><i  class="far fa-pause-circle"></i></button>
+				<button><i class="fas fa-step-forward"></i></button>
+				<button><i class="fas fa-redo-alt"></i></button>
+			</div>
+			<div id="middle-section-bottom">
+				<p>01:12</p>
+				<div class="slidecontainer-1">
+				    <input type="range" min="1" max="100" value="50" class="slider-1">
+				</div>
+				<p>03:34</p>
+
+
+			</div>
+		</div>
+
+		<div id="right-player-section">
+			<button><i class="fas fa-list-ol"></i></button>&nbsp
+			<button><i class="fab fa-youtube"></i></button>&nbsp
+			<button><i class="fas fa-volume-up"></i></button>&nbsp
+
+			<div class="slidecontainer">
+			    <input type="range" min="1" max="100" value="50" class="slider">
+			</div>
+
+			&nbsp
+			<button><i class="fas fa-expand"></i></button>&nbsp
+		</div>
+	</div>
+</body>
+</html>
